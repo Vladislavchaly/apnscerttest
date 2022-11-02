@@ -62,7 +62,7 @@ function create_signature($package_dir, $cert_path, $cert_password) {
     //openssl_pkcs7_sign("$package_dir/manifest.json", $signature_path, $cert_data, $private_key, array(), PKCS7_BINARY | PKCS7_DETACHED);
 
 //Update 2021
-    openssl_pkcs7_sign("$package_dir/manifest.json", $signature_path, $cert_data, $private_key, array(), PKCS7_BINARY | PKCS7_DETACHED, "AppleWWDRCA.pem");
+    openssl_pkcs7_sign("$package_dir/manifest.json", $signature_path, $cert_data, $private_key, array(), PKCS7_BINARY | PKCS7_DETACHED, "AppleWWDRCA.cer");
 //Update 2021
 
     // Convert the signature from PEM to DER
