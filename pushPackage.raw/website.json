@@ -1,0 +1,8 @@
+{
+  "websiteName": "XXXCLUSIVE",
+  "websitePushID": "web.com.xxxclusive.push",
+  "allowedDomains": ["https://development.xxxclusive.com", "https://staging.xxxclusive.com", "https://xxxclusive.com"],
+  "urlFormatString": "https://development.xxxclusive.com/%@/?flight=%@",
+  "authenticationToken": "19f8d7a6e9fb8a7f6d9330dabe",
+  "webServiceURL": "https://be.development.xxxclusive.com"
+}
